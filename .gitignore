@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.gradio/
+.ipynb_checkpoints/
+.DS_Store
+*.log
+*.keras.tmp
+*.patched.keras
+req.txt

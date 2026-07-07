@@ -1,0 +1,5 @@
+gradio>=5.0
+tensorflow>=2.15
+numpy
+Pillow
+pytest
