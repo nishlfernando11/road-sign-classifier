@@ -10,7 +10,7 @@ from app.predictor import RoadSignPredictor
 
 @pytest.fixture
 def predictor():
-    return RoadSignPredictor(model_path=Path("models/road_sign_final_cand_model_3_best.keras"))
+    return RoadSignPredictor(model_path=Path("models/best_model.keras"))
 
 
 def test_validate_image_rejects_none(predictor):

@@ -8,7 +8,7 @@ from PIL import Image
 
 
 BASE_DIR = Path(__file__).resolve().parent.parent
-MODEL_PATH = BASE_DIR / "models" / "road_sign_final_cand_model_3_best.keras"
+MODEL_PATH = BASE_DIR / "models" / "best_model.keras"
 CLASSES = ["giveway", "noentry", "pedestrian", "speed", "stop"]
 IMG_SIZE = 224
 MAX_IMAGE_DIMENSION = 4096

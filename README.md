@@ -37,7 +37,9 @@ The objective is to build an accurate and efficient classifier capable of recogn
 
 ## Demo
 
-> 🚧 Gradio web application coming soon.
+Try the Gradio web application at: 
+
+https://huggingface.co/spaces/nlfernando/road-sign-classifier-aus
 
 ---
 
