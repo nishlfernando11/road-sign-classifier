@@ -8,7 +8,7 @@ from PIL import Image
 
 
 BASE_DIR = Path(__file__).resolve().parent.parent
-MODEL_PATH = BASE_DIR / "models" / "best_model.keras"
+MODEL_PATH = BASE_DIR / "models" / "best_model_augmt_cls_wgt.patched.keras"
 CLASSES = ["giveway", "noentry", "pedestrian", "speed", "stop"]
 IMG_SIZE = 224
 MAX_IMAGE_DIMENSION = 4096
